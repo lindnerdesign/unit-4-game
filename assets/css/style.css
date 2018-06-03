@@ -1,8 +1,12 @@
-.eggs{
-  width: 100px;
+.egg{
+  width: 125px;
   margin: 10px 0px 20px 0px;
 }
 
 .loss{
   margin-bottom: 20px;
+}
+
+.randomNumber .finalTotal .wins .losses {
+
 }
