@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 //Generate random target number between two specific numbers (19-120)
-var random = Math.floor(Math.random()*120+19)
+var random = Math.floor(Math.random()* 102) +19;
 
  /* Generate random numbers for each egg (1-12) Needs to be a Math.random for each
  so they generate randomly */
@@ -23,7 +23,7 @@ $('.finalTotal').html('Your Eggs: ' + userTotal);
 
 //Game Reset
 function reset(){
-     random = Math.floor(Math.random()*120+19);
+     random = Math.floor(Math.random()* 102) +19;
      $('.randomNumber').html('Assigned Egg Amount: ' + random);
      num1 = Math.floor(Math.random()*12+1);
      num2 = Math.floor(Math.random()*12+1);

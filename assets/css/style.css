@@ -1,3 +1,9 @@
+body{
+  font-family: 'Noto Sans', sans-serif;
+  background: url("../images/background.png");
+  color: white;
+}
+
 .egg{
   width: 125px;
   margin: 10px 0px 20px 0px;
@@ -8,5 +14,19 @@
 }
 
 .randomNumber .finalTotal .wins .losses {
+}
 
+.rex{
+  text-align: center;
+  padding-top: 100px;
+}
+
+.instructionTitle{
+  color: #bf222a;
+}
+
+.randomNumber, .finalTotal {
+  background-color: #bf222a;
+  padding: 10px;
+  margin-bottom: 15px;
 }
